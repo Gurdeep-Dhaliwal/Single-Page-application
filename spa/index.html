@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf8" />
+		<meta name="viewport" content="width=device-width", initial-scale="1.0" />
+		<title>Theatre Booking</title>
+		<link type="text/css" rel="stylesheet" href="style/main.css">
+		<script type="module" src="./router.js" defer></script>
+	</head>
+	<body>
+		<aside class="hidden"><p></p></aside>
+		<header>
+			<h1>Theatre Booking</h1>
+			<p>&nbsp;</p>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/register">Register</a></li>
+				<li><a href="/show">Shows</a></li>
+				<li><a href="/addshow">AddShows</a></li>
+				<li><a href="/login">Log in</a></li>
+				<li><a href="/logout">Log out</a></li>
+				<li><a href="/play">Play</a></li>
+			</ul>
+		</nav>
+		<main>
+			<article>
+			</article>
+		</main>
+		<footer>
+			<p>&nbsp;</p>
+		</footer>
+	</body>
+	<template id="home">
+	</template>
+	<template id="login">
+		<form name="login">
+			<p><label for="email">Username</label><br /><input type="text" name="user" placeholder="username" /></p>
+			<p><label for="pass">Password</label><br /><input type="password" name="pass" placeholder="password" /></p>
+			<p><button type="submit">Log in</button></p>
+		</form>
+	</template>
+	<template id="register">
+		<form name="register">
+			<p><label for="name">Username</label><br /><input type="text" name="user" placeholder="full name" /></p>
+			<p><label for="pass">Password</label><br /><input type="password" name="pass" placeholder="password" /></p>
+			<p><button type="submit">Create account</button></p>
+		</form>
+	</template>
+	<template id="logout">
+			<p>Do you want to log out?</p>
+			<p><button>OK</button><button>Cancel</button></p>
+	</template>
+	<template id="addshow">
+		<form name="upload" method="post">
+			<p><label for="nameofshow">Name Of Show</label><br /><input type="text" name="nameofshow" placehoder="nameofshow" /></p>
+			<p><label for="description">Description</label><br /><textarea name="description" place="description"></textarea></p>
+			<p><label for="pass">Choose a file</label><br /><input type="file" name="file" /></p
+			<p><label for="startdate"></label><br /><input type="date" name="startdate" placeholder="startdate" /></p>
+			<p><label for="enddate"></label><br /><input type="date" name="enddate" placeholder="enddate" /></p>
+			<p><button type="submit">Add Show</button></p>
+		</form>
+	</template>
+	<template id="show">
+	</template>
+	<template id="shows">
+		<section>
+			<h2>nameofshow</h2>
+			<p></p>
+			<p3></p>
+			<button></button>
+		</section>
+	</template>
+	<template id="play">
+		<section>
+			<h1></h1>
+			<p></p>
+			<p3></p3>
+		</section>
+	</template>	
+</html>
