@@ -1,15 +1,3 @@
-This template is to be used when developing a Single Page Application connected to a REST Web API.This
-
-
-# Getting Started
-
-This template is designed to be installed inside a Codio box. To to this, open the terminal and run the following command:
-
-```
-$ curl -sL https://bit.ly/3ngLmVo | bash
-```
-
-> The process can take up to 15 min. Make sure you don't close the browser tab _or let your computer go into sleep mode_.
 
 To run the project:
 
